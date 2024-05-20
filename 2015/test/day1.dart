@@ -8,5 +8,7 @@ void main() {
     expect(day1.whatFlor("))((((("), 3);
     expect(day1.whatFlor("())"), -1);
     expect(day1.whatFlor(")())())"), -3);
+    expect(day1.positon(")"), 1);
+    expect(day1.positon("()())"), 5);
   });
 }
